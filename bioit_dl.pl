@@ -11,8 +11,8 @@ use HTTP::Cookies;
 use HTML::TreeBuilder;
 	
 
-my $login    = shift or die "Usage: perl $0 <email> <pasword>\n";
-my $password = shift or die "Usage: perl $0 <email> <pasword>\n";;
+my $login    = shift or die "Usage: perl $0 <email> <password>\n";
+my $password = shift or die "Usage: perl $0 <email> <password>\n";;
 
 my $base="http://www.chiresource.com/BIT-06-12/"; 
 my $url=$base . "login.asp";
