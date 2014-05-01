@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 # Author: Shrinivasrao P. Mane
 # Date: 01/05/2014
+# Email: spmane+github@gmail.com
 use strict;
 use warnings;
 use Cwd;
