@@ -15,7 +15,7 @@ use HTML::TreeBuilder;
 my $login    = shift or die "Usage: perl $0 <email> <password>\n";
 my $password = shift or die "Usage: perl $0 <email> <password>\n";;
 
-my $base="http://www.chiresource.com/BIT-06-12/"; 
+my $base="http://cii-resource.com/chi/BIT-05-31/"; 
 my $url=$base . "login.asp";
 my $userfield="UserName";
 my $passfield="password";
